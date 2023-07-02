@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-
+/* image not loaded to git*/
 body {
     font-family: 'Montserrat';
     color: #101010;
@@ -154,7 +154,7 @@ nav a img {
 }
 
 .about1 div {
-    background-image: url(../img/about1.png); 
+    background-image: url(../img/about1.png);                                 
     background-repeat: no-repeat;
     width: 278px;
     height: 371px;
@@ -162,6 +162,7 @@ nav a img {
     left: 100px;
     top: 50px;
 }
+
 
 .about1 h3 {
     color: #A52424;
@@ -200,6 +201,8 @@ nav a img {
     left: -97px;
     top: 40px;
 }
+
+
 
 .portfolio {
     display: flex;
