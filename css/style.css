@@ -154,7 +154,7 @@ nav a img {
 }
 
 .about1 div {
-    background-image: url(../img/about1.png);
+    background-image: url(/img/about1.png);
     background-repeat: no-repeat;
     width: 278px;
     height: 371px;
@@ -255,7 +255,6 @@ nav a img {
 
 .descriptions span {
     color: #A52424;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 36px;
@@ -276,7 +275,7 @@ nav a img {
 }
 
 .boxshadow div:nth-child(1) {
-    background-image: url(/img/shadow1.jpg);
+    background-image: url(../img/shadow1.jpg);
     background-repeat: no-repeat;
     position: relative;
     width: 290px;
@@ -327,7 +326,6 @@ nav a img {
 .contacts {
     display: flex;
     flex-direction: column;
-    font-family: 'Arial';
     margin-top: 50px;
     margin-left: 30px;
 }
