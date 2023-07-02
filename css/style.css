@@ -1,0 +1,405 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+    color: #101010;
+}
+
+button {
+    color: #A52424;
+    border: 1.5px solid #A52424;
+    height: 60px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    padding: 0 46px;
+}
+button:hover {
+    background-color: #A52424;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+button:active {
+    background-color: #FFFFFF;
+    color: #A52424;
+}
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    letter-spacing: 0.1em;
+    color: #232323;
+}
+
+h3 {
+    font-style: normal;
+    line-height: 30.8px;
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+}
+
+p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #232323;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+    color: #101010;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    margin-left: 50px;
+}
+
+.menu li a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.05em;
+    color: #101010;
+}
+
+.phone-number {
+    color: #A52424;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: right;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    color: #A52424;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 84px;
+    letter-spacing: 0.03em;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a img {
+    width: 109px;
+    height: 84px;
+}
+
+.IAM {
+    display: flex;
+    justify-content: space-between;
+}
+
+.i-am {
+    width: 443px;
+    margin-top: 120px;
+}
+
+.i-am h1 {
+    margin-bottom: 20px;
+}
+
+.i-am h3 {
+    margin-bottom: 60px;
+}
+
+.imgI-am {
+    background-image: url(/img/iam.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 674px;
+    height: 677px;
+}
+
+.container h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+    margin-top: 150px;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about1 {
+    width: 344px;
+    height: 560px;
+}
+
+.about1 div {
+    background-image: url(../img/about1.png);
+    background-repeat: no-repeat;
+    width: 278px;
+    height: 371px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.about1 h3 {
+    color: #A52424;
+    position: relative;
+    left: 98px;
+    top: 99px;
+}
+
+.about2 {
+    width: 674px;
+}
+
+.about2 h3 {
+    color: #A52424;
+}
+
+.about2 p {
+    margin-top: 20px;
+    color: #232323;
+}
+
+.shadow {
+    width: 568px;
+    height: 330px;
+    position: relative;
+    top: -20px;
+    left: 97px;
+}
+
+.about2img {
+    background-image: url(../img/about2.png);
+    background-repeat: no-repeat;
+    width: 642px;
+    height: 268px;
+    position: relative;
+    left: -97px;
+    top: 40px;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card {
+    width: 377px;
+    background-color: #FFFFFF;
+    text-align: left;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-bottom: 20px;
+}
+
+.card button {
+    width: 202px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 153px;
+    margin-bottom: 150px;
+}
+
+.boxshadow {
+    box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+    width: 509px;
+    height: 467px;
+    text-align: center;
+    position: relative;
+}
+
+.descriptions {
+    position: absolute;
+    top: 210px;
+    left: 65px;
+}
+
+.descriptions span {
+    color: #A52424;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin-right: 33px;
+}
+
+.descriptions h3 {
+    color: #A52424;
+}
+
+.conditions {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 25px 40px;
+    text-align: left;
+}
+
+.boxshadow div:nth-child(1) {
+    background-image: url(/img/shadow1.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    width: 290px;
+    height: 290px;
+    left: 120px;
+    top: -110px;
+}
+
+.conditions ul:nth-child(1) {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #232323;
+}
+
+.conditions ul:nth-child(2) {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: right;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.booking {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.booking img:nth-child(1) {
+    position: absolute;
+    top: 97px;
+}
+
+.booking img:nth-child(2) {
+    position: absolute;
+    left: 270px;
+    top: 50px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial';
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+input {
+    background-color: #FFFFFF;
+    width: 476px;
+    height: 60px;
+    padding-left: 20px;
+    border: 0.5px solid rgba(35, 35, 35, 0.85);
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    opacity: 60%;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+input::placeholder {
+    color: rgba(35, 35, 35, 0.35);
+}
+
+textarea {
+    resize: none;
+    width: 476px;
+    height: 221px;
+    background-color: #FFFFFF;
+    border: 0.5px solid rgba(35, 35, 35, 0.85);
+    opacity: 60%;
+    padding-left: 20px;
+    padding-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+textarea::placeholder {
+    color: rgba(35, 35, 35, 0.35);
+}
+
+.contact_us button {
+    width: 476px;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 157px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+}
+
+.zapis {
+    padding-bottom: 100px;
+}
+footer {
+    border-top: 1px solid rgba(35, 35, 35, 0.35);
+}
+.footphone-number{
+    color: #A52424;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30.8px;
+    letter-spacing: 5%;
+}
